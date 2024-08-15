@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>X/O Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="play" id="play">
+            <div class="start">
+                <h1>WELCOME</h1>
+                <h4>CHOOSE X / O</h4>
+            </div>
+            <div class="choose">
+                <input type="button" value="X" class="btn-X-O" id="X">
+                <input type="button" value="O" class="btn-X-O" id="O">
+            </div>
+        </div>
+        <div id="gambody" class="gambody">
+            <table id="game">
+                <tr>
+                    <td id="r1-c1" class="r1"></td>
+                    <td id="r1-c2" class="r2"></td>
+                    <td id="r1-c3" class="r3"></td>
+                </tr>
+                <tr>
+                    <td id="r2-c1" class="r1"></td>
+                    <td id="r2-c2" class="r2"></td>
+                    <td id="r2-c3" class="r3"></td>
+                </tr>
+                <tr>
+                    <td id="r3-c1" class="r1"></td>
+                    <td id="r3-c2" class="r2"></td>
+                    <td id="r3-c3" class="r3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="rstbtn" id="rstbtn">
+            <input type="button" value="reset" class="reset" id="Reset">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
